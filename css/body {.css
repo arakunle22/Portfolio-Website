@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* .hero-section {
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 20px;
+} */
+
+.profile-img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid #f06;
+  transition: transform 0.6s ease-in-out;
+}
+
+.profile-img.animate {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.profile-img.animate.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+h1, p {
+  margin-top: 20px;
+}
+
+.animate {
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.animate.visible {
+  opacity: 1;
+}
